@@ -1,0 +1,51 @@
+nav{
+    width: 615px;
+    height: 0px;
+    margin: 0 auto;
+    transition: all 0.3s ease-in-out 0s;
+    padding-bottom: 20px;
+    margin-right: 1.9%;
+}
+
+/*Quita viñetas*/
+ul{
+    list-style:none;
+}
+
+#menu{
+    position: absolute;
+    /*prioridad del menu en todo el contenido*/
+    z-index: 500;
+}
+
+#menu li>a{
+    background-color:#9e346b;
+    color: black;
+    font-family: verdana;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 15px;
+    display: block;
+    text-decoration: none;
+    min-width: 100px;
+}
+
+#menu li>a:hover {
+    color: #000;
+    background-color: #eaeaea;
+    transition: all 1s ease-in-out;
+}
+
+/* pone el menu a la izquierda*/
+#menu>li{
+    float: left;
+    text-align: center;
+}
+
+#menu>li:hover>ul {
+    display: center;
+}
+
+#menu>li>ul{
+    display: center;
+}
